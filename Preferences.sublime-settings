@@ -1,0 +1,43 @@
+{
+    "ignored_packages":
+    [
+        "Vintage",
+    ],
+    "font_size": 16,
+    "word_wrap": true,
+    "spell_check": true,
+    "scroll_past_end": true,
+    "index_files": true,
+    "translate_tabs_to_spaces": true,
+    "highlight_line": true,
+    "font_options": ["no_liga", "no_clig", "no_calt"],
+    "auto_complete": false,
+    "font_face": "JetBrains Mono",
+    // OS X only: When files are opened from finder, or by dragging onto the
+    // dock icon, this controls if a new window is created or not.
+    "open_files_in_new_window": false,
+    // Makes tabs with modified files more visible
+    "highlight_modified_tabs": true,
+
+    "theme": "Spacegray.sublime-theme",
+    "added_words":
+    [
+		"subarray",
+        "bsts",
+        "Spacegray",
+        "Monokai",
+        "homebrew",
+        "openjdk",
+    ],
+    "dark_theme": "Adaptive.sublime-theme",
+    "light_theme": "Default Dark.sublime-theme",
+    "ignored_words":
+    [
+		"abt",
+        "ve",
+    ],
+    "color_scheme": "Mariana.sublime-color-scheme",
+    "dark_color_scheme": "Monokai.sublime-color-scheme",
+    "light_color_scheme": "Monokai.sublime-color-scheme",
+    "java_home": "/opt/homebrew/opt/openjdk@11/bin",
+}
