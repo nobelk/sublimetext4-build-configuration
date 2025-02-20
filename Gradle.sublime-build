@@ -1,0 +1,20 @@
+{
+    "shell_cmd": "./gradlew build",
+    "working_dir": "${folder:${project_path:${file_path}}}",
+    "selector": "source.java",
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+    "variants": [
+        {
+            "name": "Run",
+            "shell_cmd": "./gradlew run"
+        },
+        {
+            "name": "Clean",
+            "shell_cmd": "./gradlew clean"
+        },
+        {
+            "name": "Test",
+            "shell_cmd": "./gradlew test --info"
+        }
+    ]
+}
